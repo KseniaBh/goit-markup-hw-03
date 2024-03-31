@@ -33,7 +33,6 @@ ul {
 .upper {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .upper-menu {
   font-weight: 500;
@@ -314,7 +313,14 @@ img {
   color: #f4f4fd;
   text-decoration: none;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 h1 {
   max-width: 496px;
 }
@@ -336,4 +342,7 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+p {
+  margin: 0;
 }
